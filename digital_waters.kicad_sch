@@ -1,0 +1,266 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "37fdfe07-1a70-41c8-8af2-e03e19737580")
+	(paper "A4")
+	(lib_symbols)
+	(text "General Design requirements:\n- Power switching (need to be able to reduce power consumption \n  as much as possible). Everything that draws power must be able \n  to be switched off or must have a shutdown pin.\n- Low noise interfaces on sensor inputs.\n- High frequency lines should be adequately blocked"
+		(exclude_from_sim no)
+		(at 188.976 26.416 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fcc3bea7-da49-4dd1-9ebe-d369d8b7f3b7")
+	)
+	(sheet
+		(at 46.99 36.83)
+		(size 36.83 27.94)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1fb5cba5-fe5a-4aba-b82b-13cd9370505b")
+		(property "Sheetname" "Power"
+			(at 46.99 36.1184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 46.99 65.3546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "digital_waters"
+				(path "/37fdfe07-1a70-41c8-8af2-e03e19737580"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 125.73 36.83)
+		(size 53.34 33.02)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4e096a74-ff29-463d-8e2a-2f4b65c4f0fe")
+		(property "Sheetname" "Micocontroller"
+			(at 125.73 36.1184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "microcontroller.kicad_sch"
+			(at 125.73 70.4346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "digital_waters"
+				(path "/37fdfe07-1a70-41c8-8af2-e03e19737580"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 81.28)
+		(size 52.07 39.37)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "569ba513-db4e-4a75-8161-f5cfa6b9cf84")
+		(property "Sheetname" "Sensor Module"
+			(at 127 80.5684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor_module.kicad_sch"
+			(at 127 121.2346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "digital_waters"
+				(path "/37fdfe07-1a70-41c8-8af2-e03e19737580"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 46.99 81.28)
+		(size 59.69 39.37)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a9c686ab-82b6-4efc-b16f-d53dddd38dcc")
+		(property "Sheetname" "Base_Sensor"
+			(at 46.99 80.5684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor_base.kicad_sch"
+			(at 46.99 121.2346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SPI_MOSI" input
+			(at 106.68 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1f0f46fd-aa93-4bc3-8e14-4be186ffe642")
+		)
+		(pin "SPI_SCLK" input
+			(at 106.68 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "70dc8b5c-904f-4875-9495-8206daf60c4c")
+		)
+		(pin "SPI_MISO" input
+			(at 106.68 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "093421ec-8c3e-4cde-b302-d694edfd8a61")
+		)
+		(pin "+V5.0" input
+			(at 46.99 88.9 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "aa361f3e-b1d0-4e08-9ff0-1fe4bdb7de39")
+		)
+		(pin "ENABLE{slash}*SHDN" input
+			(at 106.68 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d6b6572b-7c7b-491d-9646-a6d8f108b8a0")
+		)
+		(pin "SPI_CS0" input
+			(at 106.68 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a2b7e365-5668-4aa5-9154-f97bcf0bd345")
+		)
+		(pin "I2C_SDA" input
+			(at 106.68 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1fc723f0-44d7-4cc3-832a-90678aa20a7e")
+		)
+		(pin "I2C_SCL" input
+			(at 106.68 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c00f76e8-fd0e-425c-ae18-db9129b59c01")
+		)
+		(pin "GND_CB" input
+			(at 46.99 92.71 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c602f4b7-bfa0-4a76-8879-49a1d6505d92")
+		)
+		(instances
+			(project "digital_waters"
+				(path "/37fdfe07-1a70-41c8-8af2-e03e19737580"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
