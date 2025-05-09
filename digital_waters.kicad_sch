@@ -122,6 +122,136 @@
 				(justify left top)
 			)
 		)
+		(pin "I2C_SDA" input
+			(at 179.07 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4ee43b54-e5f5-4708-8d16-83118e26832d")
+		)
+		(pin "I2C_SCL" input
+			(at 179.07 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7931545f-b154-4e95-971b-9e8309057c87")
+		)
+		(pin "CALIBRATE" input
+			(at 127 113.03 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7da93c0a-5f91-4e05-a271-fc8006daa8ef")
+		)
+		(pin "SPI_SCLK" input
+			(at 179.07 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "341a0ea5-b71f-4766-af12-9ae63e5ad80c")
+		)
+		(pin "SPI_CS0" input
+			(at 179.07 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ea2119d4-378d-4dd2-81fd-0b37b0cd2cb5")
+		)
+		(pin "SPI_MOSI" input
+			(at 179.07 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b37d7d30-90d3-42f4-b98a-98bd118aa146")
+		)
+		(pin "SPI_MISO" input
+			(at 179.07 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "525d1b94-98ef-4aad-83aa-ab689e1cd2e7")
+		)
+		(pin "GND_CB" input
+			(at 127 92.71 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "52ab1bd5-ad7e-4698-b8d8-022bb4a8c78c")
+		)
+		(pin "ENABLE{slash}*SHDN" input
+			(at 179.07 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6c2cc033-1ce3-4231-8216-b764a2bf5d97")
+		)
+		(pin "+V5.0" input
+			(at 127 87.63 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "77b91ca2-08e8-4e65-881d-13138eea7311")
+		)
+		(pin "SLOT_1_ADDR_0" input
+			(at 127 100.33 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c2cd8864-94f5-4264-871c-d932a5ccb167")
+		)
+		(pin "SLOT_1_ADDR_2" input
+			(at 127 105.41 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b8adec58-a863-4b67-8296-e940b99615b6")
+		)
+		(pin "SLOT_1_ADDR_1" input
+			(at 127 102.87 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3df07fde-76e1-435d-9c9f-7cad99ddf4f7")
+		)
 		(instances
 			(project "digital_waters"
 				(path "/37fdfe07-1a70-41c8-8af2-e03e19737580"
