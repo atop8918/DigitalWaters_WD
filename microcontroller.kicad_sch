@@ -5,4 +5,158 @@
 	(uuid "facb2f44-b57b-4498-b9b5-1780e80f5490")
 	(paper "A4")
 	(lib_symbols)
+	(hierarchical_label "SPI_MISO"
+		(shape input)
+		(at 242.57 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "29796edb-cbef-4062-b23f-c02bf44cdc04")
+	)
+	(hierarchical_label "EN{slash}~{SH_1}"
+		(shape output)
+		(at 241.3 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "348d8cc7-695e-484a-962a-0aa1e835f694")
+	)
+	(hierarchical_label "SPI_MOSI"
+		(shape output)
+		(at 242.57 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3d8ee8a6-f28f-4b79-8d62-ae337734fc87")
+	)
+	(hierarchical_label "SPI_CS2"
+		(shape output)
+		(at 242.57 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4ccb729f-12b4-4ce0-87f8-42b2514fde58")
+	)
+	(hierarchical_label "+3.3V"
+		(shape input)
+		(at 242.57 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5180ad6a-148a-48b9-bf04-f4795d5b4632")
+	)
+	(hierarchical_label "I2C_SDA"
+		(shape bidirectional)
+		(at 240.03 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5298864b-8b23-4908-803d-a8dc39a18c25")
+	)
+	(hierarchical_label "SPI_SCLK"
+		(shape output)
+		(at 242.57 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a7db8e2e-aa00-4529-bbe6-7d61085b4ba4")
+	)
+	(hierarchical_label "EN{slash}~{SH_2}"
+		(shape output)
+		(at 241.3 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b0fed49d-92f1-43d6-b69d-cc7187759d0e")
+	)
+	(hierarchical_label "+5.0V"
+		(shape input)
+		(at 242.57 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b78126f8-87ff-4127-ab5b-939237992280")
+	)
+	(hierarchical_label "SPI_CS0"
+		(shape output)
+		(at 242.57 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d571a2f7-ec8c-4669-aaeb-a17220548a52")
+	)
+	(hierarchical_label "SPI_CS1"
+		(shape output)
+		(at 242.57 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "db32538d-8342-4cb5-a71b-e5c055c7ca52")
+	)
+	(hierarchical_label "GND_CB"
+		(shape bidirectional)
+		(at 241.3 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e8a8cae2-394c-4de7-84e3-de766d038833")
+	)
+	(hierarchical_label "I2C_SCL"
+		(shape output)
+		(at 240.03 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "efeb2ca4-235f-4959-968e-9a8953ddfb77")
+	)
+	(hierarchical_label "EN{slash}~{SH_0}"
+		(shape output)
+		(at 241.3 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f85acffe-deb7-4f9b-8cd6-45af7d27e1f6")
+	)
 )
