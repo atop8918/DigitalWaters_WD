@@ -38,6 +38,17 @@
 		)
 		(uuid "3d8ee8a6-f28f-4b79-8d62-ae337734fc87")
 	)
+	(hierarchical_label "CALIBRATE"
+		(shape output)
+		(at 241.3 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "41dd6233-342a-4f54-84e7-1dc6ba075698")
+	)
 	(hierarchical_label "SPI_CS2"
 		(shape output)
 		(at 242.57 87.63 0)
