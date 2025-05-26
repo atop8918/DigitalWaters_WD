@@ -3228,6 +3228,17 @@
 		)
 		(uuid "94f7ee3c-7a91-4d8e-b22d-43dd9ec76372")
 	)
+	(text "TODO\n- We need to add some input line protection, maybe TVS diodes on all \"external\" lines.\n- Maybe add a fuse or MOV to the battery input to help mediate shorts\n- Add a DHT11/20 to the base sensor board for internal leak / humidity tracking\n- Flesh out the digital sensor board a bit more\n"
+		(exclude_from_sim no)
+		(at 168.148 135.382 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d59fb59c-a9ef-43f7-bdbe-76e8781df563")
+	)
 	(text "Pullups on I2C Lines\nmay be necessary"
 		(exclude_from_sim no)
 		(at 235.458 114.808 0)
