@@ -598,6 +598,14 @@
     [
       "4e096a74-ff29-463d-8e2a-2f4b65c4f0fe",
       "Micocontroller"
+    ],
+    [
+      "d2427062-91e8-445f-bd40-9664f854e978",
+      "Digital Sensor Module 4"
+    ],
+    [
+      "809a0474-9a58-4e83-9935-d7b70e82e0d6",
+      "Sensor 8 decoupling"
     ]
   ],
   "text_variables": {}

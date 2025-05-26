@@ -5,9 +5,20 @@
 	(uuid "facb2f44-b57b-4498-b9b5-1780e80f5490")
 	(paper "A4")
 	(lib_symbols)
+	(text "This is a placeholder for a CPU module. \nCould be a Raspberry Pi or ESP32 or another\nmicrocontroller module with (TBD) GPIO lines,\nat least one SPI bus with (3) CS lines, and one\nI2C Bus.\n"
+		(exclude_from_sim no)
+		(at 17.526 24.384 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left)
+		)
+		(uuid "92b90c18-d398-4d0b-9e4d-56c13aa8f3f0")
+	)
 	(hierarchical_label "SPI_MISO"
 		(shape input)
-		(at 242.57 64.77 0)
+		(at 242.57 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -29,7 +40,7 @@
 	)
 	(hierarchical_label "SPI_MOSI"
 		(shape output)
-		(at 242.57 68.58 0)
+		(at 242.57 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -51,7 +62,7 @@
 	)
 	(hierarchical_label "SPI_CS2"
 		(shape output)
-		(at 242.57 87.63 0)
+		(at 242.57 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -73,7 +84,7 @@
 	)
 	(hierarchical_label "I2C_SDA"
 		(shape bidirectional)
-		(at 240.03 40.64 0)
+		(at 242.57 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -84,7 +95,7 @@
 	)
 	(hierarchical_label "SPI_SCLK"
 		(shape output)
-		(at 242.57 72.39 0)
+		(at 242.57 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -106,7 +117,7 @@
 	)
 	(hierarchical_label "+5.0V"
 		(shape input)
-		(at 242.57 104.14 0)
+		(at 242.57 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -128,7 +139,7 @@
 	)
 	(hierarchical_label "SPI_CS1"
 		(shape output)
-		(at 242.57 83.82 0)
+		(at 242.57 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -139,7 +150,7 @@
 	)
 	(hierarchical_label "GND_CB"
 		(shape bidirectional)
-		(at 241.3 118.11 0)
+		(at 242.57 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -150,7 +161,7 @@
 	)
 	(hierarchical_label "I2C_SCL"
 		(shape output)
-		(at 240.03 49.53 0)
+		(at 242.57 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)

@@ -5611,7 +5611,7 @@
 		)
 	)
 	(sheet
-		(at 91.44 129.54)
+		(at 71.12 129.54)
 		(size 34.29 38.1)
 		(fields_autoplaced yes)
 		(stroke
@@ -5623,7 +5623,7 @@
 		)
 		(uuid "cd9728ba-1851-498f-ab35-9bbb84da64f8")
 		(property "Sheetname" "Sensor Module 8"
-			(at 91.44 128.8284 0)
+			(at 71.12 128.8284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5632,7 +5632,7 @@
 			)
 		)
 		(property "Sheetfile" "sensor_module_8.kicad_sch"
-			(at 91.44 168.2246 0)
+			(at 71.12 168.2246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5644,6 +5644,44 @@
 			(project "digital_waters"
 				(path "/37fdfe07-1a70-41c8-8af2-e03e19737580"
 					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.3 129.54)
+		(size 29.21 38.1)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d2427062-91e8-445f-bd40-9664f854e978")
+		(property "Sheetname" "Digital Sensor Module 4"
+			(at 114.3 128.8284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "digital_sensor_4.kicad_sch"
+			(at 114.3 168.2246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "digital_waters"
+				(path "/37fdfe07-1a70-41c8-8af2-e03e19737580"
+					(page "7")
 				)
 			)
 		)

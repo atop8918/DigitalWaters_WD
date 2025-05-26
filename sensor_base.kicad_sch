@@ -4378,7 +4378,7 @@
 		)
 		(uuid "8019eff9-0e98-4677-b9ec-597c8081cfc1")
 	)
-	(text "Leak Detector"
+	(text "Internal Temp / Humidity (DTH 11/20?)"
 		(exclude_from_sim no)
 		(at 97.282 42.672 0)
 		(effects

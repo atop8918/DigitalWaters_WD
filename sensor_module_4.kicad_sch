@@ -5586,7 +5586,7 @@
 		)
 		(uuid b1929a4f-39c5-466a-a7e0-111293eccd4b)
 	)
-	(text "TBD"
+	(text "Turbidity"
 		(exclude_from_sim no)
 		(at 96.266 43.434 0)
 		(effects
@@ -7224,28 +7224,28 @@
 			)
 		)
 		(pin "8"
-			(uuid "e52a8cb5-68fe-4da4-addb-f0b0c8208353")
+			(uuid "e52a8cb5-68fe-4da4-addb-f0b0c8208354")
 		)
 		(pin "7"
-			(uuid "5477ec25-5ba1-4d84-836a-99df13eb1fcc")
+			(uuid "5477ec25-5ba1-4d84-836a-99df13eb1fcd")
 		)
 		(pin "3"
-			(uuid "b8a4445d-7acf-49ab-9646-a0769696ee74")
+			(uuid "b8a4445d-7acf-49ab-9646-a0769696ee75")
 		)
 		(pin "4"
-			(uuid "9793611b-0fcf-4429-b865-925eb54b6ca5")
+			(uuid "9793611b-0fcf-4429-b865-925eb54b6ca6")
 		)
 		(pin "6"
-			(uuid "8d93c3d5-bf79-4102-8b5a-566c5b993605")
+			(uuid "8d93c3d5-bf79-4102-8b5a-566c5b993606")
 		)
 		(pin "1"
-			(uuid "7452a16a-d89a-4256-92ec-9fc19157604f")
+			(uuid "7452a16a-d89a-4256-92ec-9fc191576050")
 		)
 		(pin "2"
-			(uuid "18acd124-a305-400b-9e65-42fcf25bcea0")
+			(uuid "18acd124-a305-400b-9e65-42fcf25bcea1")
 		)
 		(pin "5"
-			(uuid "b1c3a6c3-063a-42cb-9cc2-d59814686727")
+			(uuid "b1c3a6c3-063a-42cb-9cc2-d59814686728")
 		)
 		(instances
 			(project ""
@@ -9274,28 +9274,28 @@
 			)
 		)
 		(pin "8"
-			(uuid "e52a8cb5-68fe-4da4-addb-f0b0c8208353")
+			(uuid "e52a8cb5-68fe-4da4-addb-f0b0c8208355")
 		)
 		(pin "7"
-			(uuid "5477ec25-5ba1-4d84-836a-99df13eb1fcc")
+			(uuid "5477ec25-5ba1-4d84-836a-99df13eb1fce")
 		)
 		(pin "3"
-			(uuid "b8a4445d-7acf-49ab-9646-a0769696ee74")
+			(uuid "b8a4445d-7acf-49ab-9646-a0769696ee76")
 		)
 		(pin "4"
-			(uuid "9793611b-0fcf-4429-b865-925eb54b6ca5")
+			(uuid "9793611b-0fcf-4429-b865-925eb54b6ca7")
 		)
 		(pin "6"
-			(uuid "8d93c3d5-bf79-4102-8b5a-566c5b993605")
+			(uuid "8d93c3d5-bf79-4102-8b5a-566c5b993607")
 		)
 		(pin "1"
-			(uuid "7452a16a-d89a-4256-92ec-9fc19157604f")
+			(uuid "7452a16a-d89a-4256-92ec-9fc191576051")
 		)
 		(pin "2"
-			(uuid "18acd124-a305-400b-9e65-42fcf25bcea0")
+			(uuid "18acd124-a305-400b-9e65-42fcf25bcea2")
 		)
 		(pin "5"
-			(uuid "b1c3a6c3-063a-42cb-9cc2-d59814686727")
+			(uuid "b1c3a6c3-063a-42cb-9cc2-d59814686729")
 		)
 		(instances
 			(project ""
