@@ -3228,9 +3228,20 @@
 		)
 		(uuid "94f7ee3c-7a91-4d8e-b22d-43dd9ec76372")
 	)
+	(text "Notes:\nINA333 requires that signals be at least 0.1V away from the \npower rails, both ground and VDD. Input signals must be\nat least 100mV above ground!\nThere is a 70pA input offset current which also must have\na path to ground. Inputs should provide this path through \na resistor or balanced resistors. "
+		(exclude_from_sim no)
+		(at 164.592 142.494 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a135ea10-dbbd-4fb6-a98a-c43bc2e78463")
+	)
 	(text "TODO\n- We need to add some input line protection, maybe TVS diodes on all \"external\" lines.\n- Maybe add a fuse or MOV to the battery input to help mediate shorts\n- Add a DHT11/20 to the base sensor board for internal leak / humidity tracking\n- Flesh out the digital sensor board a bit more\n"
 		(exclude_from_sim no)
-		(at 168.148 135.382 0)
+		(at 164.338 128.27 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3252,7 +3263,7 @@
 	)
 	(text "General Design requirements:\n- Power switching (need to be able to reduce power consumption \n  as much as possible). Everything that draws power must be able \n  to be switched off or must have a shutdown pin.\n- Low noise interfaces on sensor inputs.\n- High frequency lines should be adequately blocked"
 		(exclude_from_sim no)
-		(at 10.414 0.254 0)
+		(at 165.354 158.242 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5416,6 +5427,46 @@
 				(justify right)
 			)
 			(uuid "56c36d98-d4d6-41b3-af32-9e7e21b283f2")
+		)
+		(pin "ADC_TEMP" input
+			(at 83.82 53.34 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "82beb279-72e1-40e9-9651-3b66def8462a")
+		)
+		(pin "ADC_BATT+" input
+			(at 83.82 57.15 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "aa063984-92e9-4e10-a1ac-acf705cd703a")
+		)
+		(pin "ADC_BATT-" input
+			(at 83.82 60.96 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2e2b0ba5-dd34-46e1-b365-3f6c311f787e")
+		)
+		(pin "1_WIRE_SDA" output
+			(at 83.82 67.31 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a54f0969-c580-4474-ac42-8b0f4330aefb")
 		)
 		(instances
 			(project "digital_waters"

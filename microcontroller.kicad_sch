@@ -93,6 +93,17 @@
 		)
 		(uuid "5298864b-8b23-4908-803d-a8dc39a18c25")
 	)
+	(hierarchical_label "ADC_BATT+"
+		(shape input)
+		(at 242.57 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "96fb9c49-489f-4150-8a5a-4b4317b10d82")
+	)
 	(hierarchical_label "SPI_SCLK"
 		(shape output)
 		(at 242.57 77.47 0)
@@ -126,6 +137,17 @@
 		)
 		(uuid "b78126f8-87ff-4127-ab5b-939237992280")
 	)
+	(hierarchical_label "ADC_BATT-"
+		(shape input)
+		(at 242.57 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d1ae169c-1cbb-4a64-b94e-d96aa97b4cfb")
+	)
 	(hierarchical_label "SPI_CS0"
 		(shape output)
 		(at 242.57 80.01 0)
@@ -147,6 +169,17 @@
 			(justify left)
 		)
 		(uuid "db32538d-8342-4cb5-a71b-e5c055c7ca52")
+	)
+	(hierarchical_label "ADC_TEMP"
+		(shape input)
+		(at 242.57 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e3f38288-f959-48d6-a45c-531a831d8f7d")
 	)
 	(hierarchical_label "GND_CB"
 		(shape bidirectional)
