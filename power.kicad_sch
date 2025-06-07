@@ -327,6 +327,108 @@
 				)
 			)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:Battery"
 			(pin_numbers hide)
 			(pin_names
@@ -1331,146 +1433,6 @@
 				)
 			)
 		)
-		(symbol "Regulator_Linear:LM1084-3.3"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -3.81 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LM1084-3.3"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm1084.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "5A 27V Linear Regulator, Fixed Output 3.3V, TO-220/TO-263"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Voltage Regulator Fixed 5A Positive"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO?220* TO?263*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LM1084-3.3_0_1"
-				(rectangle
-					(start -5.08 1.905)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "LM1084-3.3_1_1"
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "VO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "VI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:GNDPWR"
 			(power)
 			(pin_numbers hide)
@@ -1641,12 +1603,6 @@
 		)
 	)
 	(junction
-		(at 256.54 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "05e59124-d526-4699-bfc9-6d7d58731610")
-	)
-	(junction
 		(at 93.98 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1659,34 +1615,10 @@
 		(uuid "21d2ba38-e326-4f1f-bee3-a9f3c67f8e10")
 	)
 	(junction
-		(at 198.12 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2c214057-7622-426b-831e-b9d5e185cb75")
-	)
-	(junction
-		(at 231.14 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "36799216-1ada-4612-ae3d-5c2652773f96")
-	)
-	(junction
 		(at 102.87 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5448c86a-74f8-4614-8de6-9ac144e6535c")
-	)
-	(junction
-		(at 251.46 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "59bdb50d-23e2-49e2-94d2-611804739eee")
-	)
-	(junction
-		(at 245.11 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6055d4d6-3158-4ff1-8449-da8b47459904")
 	)
 	(junction
 		(at 73.66 87.63)
@@ -1722,7 +1654,7 @@
 		(at 198.12 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d851a2ae-0e26-49c1-b976-803f09821ff4")
+		(uuid "e8189499-3301-463f-906e-915289806b1d")
 	)
 	(junction
 		(at 104.14 100.33)
@@ -1736,25 +1668,21 @@
 		(color 0 0 0 0)
 		(uuid "ea2c39a3-e4aa-44a8-aa4d-8281e28b3cb5")
 	)
-	(wire
-		(pts
-			(xy 245.11 38.1) (xy 245.11 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01fbb058-33be-4d7d-8aee-78941732e2f5")
+	(junction
+		(at 114.3 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f38439ea-a697-4e6c-9317-f57eaa0a2913")
 	)
 	(wire
 		(pts
-			(xy 238.76 27.94) (xy 245.11 27.94)
+			(xy 114.3 72.39) (xy 114.3 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "01fe68a8-8d11-4a2c-b0ea-e2b1db589ba4")
+		(uuid "00825fbe-369d-44bd-9bfb-1c3b5c358fb2")
 	)
 	(wire
 		(pts
@@ -1768,17 +1696,17 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 100.33) (xy 251.46 100.33)
+			(xy 213.36 27.94) (xy 198.12 27.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "153399ae-3c1c-4130-91ee-f8178e5bf7a3")
+		(uuid "11b56f64-1a09-46af-9d6c-2abe35961711")
 	)
 	(wire
 		(pts
-			(xy 114.3 87.63) (xy 102.87 87.63)
+			(xy 120.65 87.63) (xy 102.87 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1805,6 +1733,16 @@
 			(type default)
 		)
 		(uuid "2361f7aa-d5eb-49c9-a009-26e0093efc4c")
+	)
+	(wire
+		(pts
+			(xy 114.3 74.93) (xy 102.87 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "265b989e-92e5-4a80-a7d8-09f5d014e733")
 	)
 	(wire
 		(pts
@@ -1838,16 +1776,6 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 100.33) (xy 251.46 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33813007-6e4a-4a56-a27e-0f9249bbabdb")
-	)
-	(wire
-		(pts
 			(xy 102.87 74.93) (xy 93.98 74.93)
 		)
 		(stroke
@@ -1878,16 +1806,6 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 35.56) (xy 231.14 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5419364b-00ec-4816-b233-37bdc702f7ec")
-	)
-	(wire
-		(pts
 			(xy 198.12 58.42) (xy 198.12 100.33)
 		)
 		(stroke
@@ -1908,16 +1826,6 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 40.64) (xy 251.46 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e206890-2af5-4afa-b356-2950eeab3140")
-	)
-	(wire
-		(pts
 			(xy 73.66 87.63) (xy 73.66 100.33)
 		)
 		(stroke
@@ -1925,16 +1833,6 @@
 			(type default)
 		)
 		(uuid "619152a1-da7f-4698-8872-fbd810b2f271")
-	)
-	(wire
-		(pts
-			(xy 256.54 38.1) (xy 256.54 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d42d864-5c3c-40d2-ba68-b1710a63bc90")
 	)
 	(wire
 		(pts
@@ -1958,26 +1856,6 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 27.94) (xy 245.11 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86182d5b-05c6-45f6-b851-7432b6133610")
-	)
-	(wire
-		(pts
-			(xy 198.12 100.33) (xy 231.14 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8722382e-a7a8-456e-b11a-85bb38c7c7a8")
-	)
-	(wire
-		(pts
 			(xy 90.17 74.93) (xy 93.98 74.93)
 		)
 		(stroke
@@ -1995,16 +1873,6 @@
 			(type default)
 		)
 		(uuid "90e66043-bb2b-4a4d-86e5-b54ab221568c")
-	)
-	(wire
-		(pts
-			(xy 256.54 30.48) (xy 256.54 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92612334-a940-4c2b-baca-dfb1c58ecd3a")
 	)
 	(wire
 		(pts
@@ -2038,16 +1906,6 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 40.64) (xy 245.11 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ffc95bf-0a0c-41d8-9a32-dfd21383a15a")
-	)
-	(wire
-		(pts
 			(xy 73.66 85.09) (xy 73.66 87.63)
 		)
 		(stroke
@@ -2055,16 +1913,6 @@
 			(type default)
 		)
 		(uuid "a226b905-f51e-42a6-88d8-23f40021cfec")
-	)
-	(wire
-		(pts
-			(xy 185.42 24.13) (xy 185.42 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac9015e7-c82e-49f8-96c4-4f4c0c1b0947")
 	)
 	(wire
 		(pts
@@ -2085,16 +1933,6 @@
 			(type default)
 		)
 		(uuid "afb00de7-8b63-46b6-93a2-dc16de2a28a2")
-	)
-	(wire
-		(pts
-			(xy 256.54 27.94) (xy 269.24 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b13e4537-1158-4a69-a458-a78f85c0c216")
 	)
 	(wire
 		(pts
@@ -2138,16 +1976,6 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 27.94) (xy 256.54 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d319afbe-0b36-40f8-b742-48a70c57b7fd")
-	)
-	(wire
-		(pts
 			(xy 167.64 27.94) (xy 185.42 27.94)
 		)
 		(stroke
@@ -2155,16 +1983,6 @@
 			(type default)
 		)
 		(uuid "d4c0a2f8-bc11-47bc-83ad-e5082e411928")
-	)
-	(wire
-		(pts
-			(xy 198.12 27.94) (xy 223.52 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d691d14a-d593-47d7-b49a-c38ffddf79af")
 	)
 	(wire
 		(pts
@@ -2228,7 +2046,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 74.93) (xy 102.87 74.93)
+			(xy 120.65 74.93) (xy 114.3 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2305,17 +2123,6 @@
 		)
 		(uuid "03ca44bb-9221-4a9a-8473-a37e8691c00b")
 	)
-	(text "The 5V power rail is supplied by a battery bank. We need to have some more\npower conditioning in order to make sure that we aren't coupling \ntoo much noise into the ADC circuits. To this end, we may want to use an \nLDO to provide a lower voltage rail to the OP-amp circuits, or use a \nhigher voltage battery and use the LDO to provide a \"clean\" 5.0V rail."
-		(exclude_from_sim no)
-		(at 14.224 19.304 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "340b30aa-3a59-4d22-9d3f-54f393a682a9")
-	)
 	(text "Battery Decoupling\n"
 		(exclude_from_sim no)
 		(at 177.8 44.45 0)
@@ -2364,21 +2171,9 @@
 		)
 		(uuid "b6c5c0f4-1f2e-4685-95b0-3135d58e31b1")
 	)
-	(text "Place-holder for a 3.3V supply. \nMight not need this since the CPU modules\nmay have built-in 5V-3.3V regulators. \nShould be SMPS regulator, not linear."
-		(exclude_from_sim no)
-		(at 242.062 19.05 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-			)
-			(justify left)
-		)
-		(uuid "ba31ef0d-28e8-4e65-a56f-0111790c7e77")
-	)
 	(hierarchical_label "BATTERY_SENSE_-"
 		(shape output)
-		(at 114.3 87.63 0)
+		(at 120.65 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2402,7 +2197,7 @@
 	)
 	(hierarchical_label "+5.0V"
 		(shape output)
-		(at 185.42 24.13 90)
+		(at 213.36 27.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2415,7 +2210,7 @@
 	)
 	(hierarchical_label "BATTERY_SENSE_+"
 		(shape output)
-		(at 114.3 74.93 0)
+		(at 120.65 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2423,159 +2218,6 @@
 			(justify left)
 		)
 		(uuid "af31f878-f30f-4b3e-9aa0-4452acbede0f")
-	)
-	(hierarchical_label "+3.3V"
-		(shape output)
-		(at 269.24 27.94 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ca31ed5c-ed46-41de-8acd-bdc5144b6b79")
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 245.11 34.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "08832ff7-7f84-4737-93f0-6b258b7e94d9")
-		(property "Reference" "C36"
-			(at 248.92 33.0199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C"
-			(at 248.92 35.5599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 246.0752 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 245.11 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 245.11 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1f64ae1e-64ad-4ff1-887a-989ef126b267")
-		)
-		(pin "1"
-			(uuid "f40ec1b7-6264-4f36-b361-6aec8865b77c")
-		)
-		(instances
-			(project "digital_waters"
-				(path "/37fdfe07-1a70-41c8-8af2-e03e19737580/1fb5cba5-fe5a-4aba-b82b-13cd9370505b"
-					(reference "C36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Linear:LM1084-3.3")
-		(at 231.14 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0910cfa3-89b2-4604-b975-12a07df8f713")
-		(property "Reference" "U29"
-			(at 231.14 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM1084-3.3"
-			(at 231.14 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 231.14 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm1084.pdf"
-			(at 231.14 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "5A 27V Linear Regulator, Fixed Output 3.3V, TO-220/TO-263"
-			(at 231.14 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "c96710d3-0934-411e-9eb1-d43c73da05cd")
-		)
-		(pin "1"
-			(uuid "d411bc0a-1a83-467a-9a3d-5c8abc18a33f")
-		)
-		(pin "2"
-			(uuid "0eb664e2-fb73-45c1-a01c-1c9e925e5923")
-		)
-		(instances
-			(project ""
-				(path "/37fdfe07-1a70-41c8-8af2-e03e19737580/1fb5cba5-fe5a-4aba-b82b-13cd9370505b"
-					(reference "U29")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -2587,7 +2229,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "34468862-7da1-4a3e-baf3-39e12f276c75")
-		(property "Reference" "R_shunt_batt"
+		(property "Reference" "R_shunt_batt1"
 			(at 71.12 80.0099 0)
 			(effects
 				(font
@@ -2641,7 +2283,7 @@
 		(instances
 			(project ""
 				(path "/37fdfe07-1a70-41c8-8af2-e03e19737580/1fb5cba5-fe5a-4aba-b82b-13cd9370505b"
-					(reference "R_shunt_batt")
+					(reference "R_shunt_batt1")
 					(unit 1)
 				)
 			)
@@ -2924,76 +2566,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 256.54 34.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4ac87427-a36b-4b59-b794-eb7b74c72901")
-		(property "Reference" "C37"
-			(at 260.35 33.0199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C"
-			(at 260.35 35.5599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 257.5052 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 256.54 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 256.54 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b844cdf5-17e5-4e6a-a515-c2f142ae9804")
-		)
-		(pin "1"
-			(uuid "ac8f4c66-bb83-4963-a357-bcf49e4c93d3")
-		)
-		(instances
-			(project "digital_waters"
-				(path "/37fdfe07-1a70-41c8-8af2-e03e19737580/1fb5cba5-fe5a-4aba-b82b-13cd9370505b"
-					(reference "C37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 86.36 74.93 90)
 		(unit 1)
@@ -3263,6 +2835,73 @@
 			(project ""
 				(path "/37fdfe07-1a70-41c8-8af2-e03e19737580/1fb5cba5-fe5a-4aba-b82b-13cd9370505b"
 					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 114.3 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab4c69af-bc68-4b94-a6d1-26af95c18e41")
+		(property "Reference" "TP_BATT_SENSE+1"
+			(at 116.84 67.8179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 116.84 70.3579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 114.3 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb665341-9315-453d-beed-1d8f33e22c39")
+		)
+		(instances
+			(project ""
+				(path "/37fdfe07-1a70-41c8-8af2-e03e19737580/1fb5cba5-fe5a-4aba-b82b-13cd9370505b"
+					(reference "TP_BATT_SENSE+1")
 					(unit 1)
 				)
 			)
